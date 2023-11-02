@@ -9,21 +9,26 @@ import UIKit
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State private var inputText: String = ""
-    
+        
     var body: some View {
-        VStack {
-            HStack {
-                Text(inputText)
-                Spacer()
-                Button("Clear") {
-                    inputText = ""
+        NavigationStack {
+            List {
+                NavigationLink {
+                    UIViewRepresentableView()
+                        .navigationTitle("UIViewRepresentable")
+                } label: {
+                    Text("UIViewRepresentable")
+                }
+                
+                NavigationLink {
+                    UIViewControllerRepresentableView()
+                        .navigationTitle("UIVCRepresentable")
+                } label: {
+                    Text("UIViewControllerRepresentable")
                 }
             }
-            TextView(input: $inputText)
+            .navigationTitle("UIVCRepresentable")
         }
-        .padding()
     }
 }
 
