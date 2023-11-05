@@ -11,6 +11,6 @@
  
 ## 👩🏻‍💻Reference
 
-* J.D Gauchat, ⌜UIKit for Masterminds⌟, P.707~712, [공식 홈페이지](https://www.formasterminds.com/swiftui_for_masterminds_2nd_edition/links.php) 
+* J.D Gauchat, ⌜UIKit for Masterminds⌟, P.707~712
 
 
